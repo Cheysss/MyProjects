@@ -18,7 +18,7 @@ const cards = (a,b,c,d,e,f,g,h,i,j) => {
                             <button>${j}</button>
                         </div>
                     </div>
-    
+
     `
     return div
 }

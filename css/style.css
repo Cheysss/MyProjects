@@ -54,6 +54,10 @@ outline: none;
     color: white;
 }
 
+
+/* sectiontwo */
+
+
 .sectionTwo h1{
     text-align: center;
     margin-bottom: 20px;
@@ -74,11 +78,12 @@ outline: none;
 .container {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 
 img {
     border-radius: 20px;
-    border: 2px solid blue;
+    border: 2px solid gray;
 }
 
 .p1{
@@ -112,4 +117,12 @@ button a {
 button a:hover {
     color: red;
     background-color: white;
+}
+
+.p1 {
+    transition: all .5s ease;
+}
+
+.p1:hover {
+    transform: translateY(30px);
 }
